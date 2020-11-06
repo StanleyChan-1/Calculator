@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2>Calculator</h2>
+    <div class="calContainer">
+        <div id="display">
+
+
+            <div>
+                <span id="input"> </span>
+            </div>
+            <div><span id="sign"></span></div>
+            <div>
+                <span id="output"> </span>
+            </div>
+
+        </div>
+        <!-- line 1 -->
+        <button id="clearBtn" onclick="clearAll()">AC</button>
+        <button id="minusBtn">+-</button>
+        <button id="divisionBtn">/</button>
+        <button id="backspace">C</button>
+        <!-- line 2 -->
+        <button id="sevenBtn" onclick="enterNumber(7) ">7</button>
+        <button id="eightBtn" onclick="enterNumber(8)">8</button>
+        <button id="nineBtn" onclick="enterNumber(9) ">9</button>
+        <button id="mutiBtn">*</button>
+        <!-- line 3 -->
+        <button id="fourBtn" onclick="enterNumber(4) ">4</button>
+        <button id="fiveBtn" onclick="enterNumber(5)">5</button>
+        <button id="sixBtn" onclick="enterNumber(6) ">6</button>
+        <button id="subBtn">-</button>
+        <!-- line 4 -->
+        <button id="oneBtn" onclick="enterNumber(1)">1</button>
+        <button id="twoBtn" onclick="enterNumber(2) ">2</button>
+        <button id="threeBtn" onclick="enterNumber(3)">3</button>
+        <button id="sumBtn">+</button>
+        <!-- line 5 -->
+        <button id="zeroBtn" onclick="enterNumber(0) ">0</button>
+        <button id="pointBtn">.</button>
+        <button id="equalBtn">=</button>
+    </div>
+</body>
+
+</html>
