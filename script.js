@@ -114,9 +114,11 @@ function clearOneDigi() {}
 function displayIO() {
   if (inputValue.length == 0) {
     input.innerText = inputValue;
+    output.innerText = result;
+    sign.innerText = operation;
   } else {
     input.innerText += inputValue[inputValue.length - 1];
+    output.innerText = result;
+    sign.innerText = operation;
   }
-  output.innerText = result;
-  sign.innerText = operation;
 }
